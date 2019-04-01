@@ -1,0 +1,6 @@
+com/sg/SuperheroSighting/data/LocationDaoJDBCTest.class
+com/sg/SuperheroSighting/data/SightingDaoJDBCTest.class
+com/sg/SuperheroSighting/SuperheroSightingApplicationTests.class
+com/sg/SuperheroSighting/data/HeroDaoJDBCTest.class
+com/sg/SuperheroSighting/data/PowerDaoJDBCTest.class
+com/sg/SuperheroSighting/data/OrganizationDaoJDBCTest.class

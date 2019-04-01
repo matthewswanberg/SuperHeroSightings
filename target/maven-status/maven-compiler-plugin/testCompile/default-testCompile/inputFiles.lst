@@ -1,0 +1,6 @@
+/Users/matthewswanberg/Documents/BitBucket/matt-swanberg-individual-work/SuperheroSighting/src/test/java/com/sg/SuperheroSighting/SuperheroSightingApplicationTests.java
+/Users/matthewswanberg/Documents/BitBucket/matt-swanberg-individual-work/SuperheroSighting/src/test/java/com/sg/SuperheroSighting/data/PowerDaoJDBCTest.java
+/Users/matthewswanberg/Documents/BitBucket/matt-swanberg-individual-work/SuperheroSighting/src/test/java/com/sg/SuperheroSighting/data/LocationDaoJDBCTest.java
+/Users/matthewswanberg/Documents/BitBucket/matt-swanberg-individual-work/SuperheroSighting/src/test/java/com/sg/SuperheroSighting/data/SightingDaoJDBCTest.java
+/Users/matthewswanberg/Documents/BitBucket/matt-swanberg-individual-work/SuperheroSighting/src/test/java/com/sg/SuperheroSighting/data/HeroDaoJDBCTest.java
+/Users/matthewswanberg/Documents/BitBucket/matt-swanberg-individual-work/SuperheroSighting/src/test/java/com/sg/SuperheroSighting/data/OrganizationDaoJDBCTest.java

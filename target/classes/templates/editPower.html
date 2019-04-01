@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+        <title>Super Hero Sightings</title>
+    </head>
+    <body>
+        <div>
+
+            <div class="container">
+                <div class="row m-4">
+                    <div class="col text-center border border-dark">
+                        <h1>Superhero Sightings</h1>
+                    </div>
+                </div>
+                <div class="row m-4 border border-dark">
+                    <div class="col text-center m-3">
+                        <a href="heroes" class="btn btn-outline-primary btn-lg">Heroes and Villains</a>
+                    </div>
+                    <div class="col text-center m-3">
+                        <a href="powers" class="btn btn-outline-primary btn-lg">Superpowers</a>
+                    </div>
+                    <div class="col text-center m-3">
+                        <a href="locations" class="btn btn-outline-primary btn-lg">Locations</a>
+                    </div>
+                    <div class="col text-center m-3">
+                        <a href="organizations" class="btn btn-outline-primary btn-lg">Organizations</a>
+                    </div>
+                    <div class="col text-center m-3">
+                        <a href="sightings" class="btn btn-outline-primary btn-lg">Sightings</a>
+                    </div>
+                </div>
+            </div> 
+
+            <div class="row m-4 border border-dark">
+                <div class="col-3 text-center m-3">
+                    <span class="h3">Edit Power</span>
+                </div>
+                <div class="col-7 text-center m-3">
+                    <form action="editPower" method="POST">
+                        <div class="form-group row">
+                            <label for="name" class="col-3 col-form-label">
+                                Name</label>
+                            <div class="col-9">
+                                <input type="text" name="name" id="name" 
+                                       class="form-control" th:value="${power.name}"/>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="description" class="col-3 col-form-label">
+                                Description</label>
+                            <div class="col-9">
+                                <input type="text" name="description" id="description" 
+                                       class="form-control"  th:value="${power.description}"/>
+                            </div>
+                        </div>
+                </div>
+
+                <input type="hidden" name="id" th:value="${power.id}"/>
+                <button type="submit" class="btn btn-primary">
+                    Update Power</button>
+                </form>
+            </div>
+        </div>
+
+
+
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+</body>
+</html>
